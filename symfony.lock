@@ -120,6 +120,9 @@
     "phpdocumentor/type-resolver": {
         "version": "0.4.0"
     },
+    "pimple/pimple": {
+        "version": "v3.2.3"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -143,6 +146,9 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "silex/silex": {
+        "version": "v2.3.0"
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.2.1"
