@@ -9,17 +9,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ asset("/css/main.css") }}">
 </head>
 <body>
-    <div class="header">
-        <img src="{{ asset("/img/notebook.svg") }}" class="header__pic"/>
-        <span class="header__heading">Hotel I-Smith</span>
-    </div>
+    {{ include('_header.html.twig') }}
     <div class="content">
     <h1>Booking App</h1> 
     </div>
-    <div class="footer">
-        <div class="footer__text">
-        Created by I-Sepp OÜ - <a href="http://i-smith.ee/">www.i-smith.ee</a>
-        </div>
-    </div>
+    {{ include('_footer.html.twig') }}
 </body>
 </html>
